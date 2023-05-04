@@ -1,5 +1,3 @@
-const endgamePopup = document.querySelector('endgame-popup')
-
 let boardCols = 5 /* word length */
 let boardRows = 6 /* attempts */
 

@@ -2314,5 +2314,3 @@ const dictionary = [
 	'zesty',
 	'zonal',
 ]
-
-export { dictionary }
