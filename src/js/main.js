@@ -13030,9 +13030,9 @@ function registerKey() {
 				}
 				setTimeout(() => {
 					if (word === secretWord) {
-						alert('You won. Refresh page to play again.')
+						alert('You won. Refresh page to play again (f5).')
 					} else if (currentRow == 6) {
-						alert(`Game Over! The secret word was: ${secretWord}`)
+						alert(`Game Over! The secret word was: ${secretWord}. Refresh the page to play again (f5).`)
 					}
 				}, 3 * duration)
 			} else {
