@@ -13036,7 +13036,7 @@ function registerKey() {
 					}
 				}, 3 * duration)
 			} else {
-				console.log(`not a valid word`)
+				console.log(`not a valid word. Try again.`)
 			}
 		} else if (key == 'Backspace' || key == 'Delete') {
 			if (currentCol <= 0) {
